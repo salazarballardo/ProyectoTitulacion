@@ -1,0 +1,2 @@
+CREATE TABLE mae_lora_parametros_sql (Latitud VARCHAR(15) NOT NULL DEFAULT '', Longitud VARCHAR(15) NOT NULL DEFAULT '', Velocidad VARCHAR(5) NOT NULL DEFAULT '', 
+	Temperatura VARCHAR(5) NOT NULL DEFAULT '', Humedad VARCHAR(5) NOT NULL DEFAULT '', fechaactualizacion TIMESTAMP DEFAULT NOW());

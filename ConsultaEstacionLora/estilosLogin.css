@@ -1,0 +1,96 @@
+*{box-sizing:border-box;}
+
+body{        
+    background: url(Imagenes/Fondo.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+#container_form{
+    background-color: rgb(255, 255, 255);
+    margin: 80px auto;   
+    padding: 15px auto;
+    
+    height: 380px;
+    width: 300px;
+    border :5px solid rgb(250, 240, 240);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 5px #888888;	
+    text-align: center;
+}
+
+nav{
+    background: rgb(0, 100, 174) !important;
+    padding: 15px 1px;
+    box-shadow: 1px 3px 3px rgb(0 0 0/ 46%);
+
+    margin-bottom: 3%;
+}
+
+#img_delcampo_id {
+    width: 170px;
+    height: 150px;
+    margin: auto;
+    padding: 10px;
+    display:block;    
+}
+
+#img_user_id{
+    width:25px;
+    height: 25px;
+    display:inline-flex;
+}
+
+input[type="text"]{
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #d3b7b7;
+    border-radius: 5px;
+    font-weight: bold;
+    display:block;
+}
+
+input[type="password"]{
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #d3b7b7;
+    border-radius: 5px;
+    font-weight: bold;
+    display:block;
+}
+
+input[type="button"]{
+    width:100%;
+	padding:8px 16px;
+	margin-top:5px;	
+    border:1px solid #000;
+	border-radius:10px;
+    background-color: rgb(250, 217, 30);
+	display:block;
+    box-shadow: 0 6px #999;   
+}  
+
+input[type="button"]:hover {
+    cursor:pointer;
+}
+
+input[type="button"]:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px #666;
+}
+
+.usuario{
+    display:flex;
+    justify-content: space-between;
+}
+
+#candadoIcon{
+
+    width: 25px;
+    height: 25px;
+}

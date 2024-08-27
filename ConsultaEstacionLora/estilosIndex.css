@@ -1,0 +1,70 @@
+*{box-sizing:border-box;}
+
+body{        
+    background: url(Imagenes/Fondo.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+nav{
+    background: rgb(0, 100, 174) !important;
+    padding: 15px 1px;
+    box-shadow: 1px 3px 3px rgb(0 0 0/ 46%);
+	
+    margin-bottom: 3%;
+}
+
+#container_form{
+    background-color: rgb(255, 255, 255);
+    margin: 80px auto;   
+    padding: 15px auto;
+    
+    height: 850px;
+    width: 950px;
+    border :2px solid rgb(250, 240, 240);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 5px #888888;	
+    text-align: center;
+}
+
+#img_logo_id {
+    width: 170px;
+    height: 150px;
+    margin: auto;
+    padding: 10px;
+    display:block;    
+}
+
+.celda_dato{
+    display:flex;
+    justify-content: space-between;    
+}
+
+.img_celda{
+    width:25px;
+    height: 25px;
+    display:inline-flex;
+}
+
+.lbl_dato{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#div_mapa{
+    height: 340px;
+    width: 500px;
+    border :1px solid rgb(119, 112, 112);
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px 5px #888888;	
+    margin: 35px auto;   
+    padding: 1px auto;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 22px;
+}

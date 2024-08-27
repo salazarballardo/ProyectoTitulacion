@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="estilosLogin.css">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!--JS file -->
+<script type="text/javascript" src="js/Login.js"></script>
+</head>
+<body>	   
+    <!--barra de navegacion (header)-->
+    <nav>
+        
+    </nav>    
+    <div id="container_form">        
+        <img src="Imagenes/antenalogo.png" id="img_delcampo_id">
+       <div class="usuario">
+            <img src="Imagenes/user.png" id="img_user_id" class="img_login">
+            <input type="text" name="usuario" id="usuario_id" value="" placeholder="Usuario" maxlength="15" required>
+       </div>
+       <div class="usuario">
+            <img src="Imagenes/candado.png"  id="candadoIcon">
+            <input type="password" name="password" id="password_id" value="" placeholder="Contrasenia" maxlength="15" required>
+       </div>
+        <input type="button" name="btnLogin" id="btnLogin_id" value="Ingresar">
+    </div>
+</body>
+</html>

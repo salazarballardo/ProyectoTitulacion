@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>CONSULTAESTACIONLORA</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="estilosIndex.css">
+<!--jQuery library file -->
+<script type="text/javascript"
+    src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!--google maps api-->
+<script src="https://maps.googleapis.com/maps/api/js?key="></script>
+<!--JS file -->
+<script type="text/javascript" src="js/Index.js"></script>
+</head>
+<body>
+    <!--barra de navegacion (header)-->
+    <nav
+		style="background: rgb(0, 100, 174) !important; padding: 15px 1px; box-shadow: 1px 3px 3px rgb(0 0 0/ 46%); margin-bottom: 1%;">
+		<table>
+			<tr>
+				<td><img src="Imagenes/logoCoppel.png" width="250" height="60"
+					style="background: #0160a4ed; border-radius: 3px; margin: 1px;">
+				</td>
+				<td>
+					<h1 id="h1_id">Estacion Lora</h1>
+				</td>
+			</tr>
+		</table>
+	</nav>
+	
+    <div id="container_form">
+		<img src="Imagenes/antenalogo.png" id="img_logo_id">
+		<h4> Datos estacion Lora </h4>
+		<label id="lbl_lat_id" class="lbl_dato"> </label><br>
+		<label id="lbl_lon_id" class="lbl_dato"> </label><br>
+		<label id="lbl_temp_id" class="lbl_dato"> </label><br>
+		<label id="lbl_hum_id" class="lbl_dato"> </label><br>
+		<label id="lbl_hora_act" class="lbl_dato"> </label><br>		
+
+		<div id="div_mapa"> </div>		
+	</div>
+</body>
+</html>

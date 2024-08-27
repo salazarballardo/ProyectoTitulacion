@@ -1,0 +1,1 @@
+CREATE TABLE mae_credeenciales_consulta_lora (usuariodb VARCHAR(15), passworddb VARCHAR(15));
